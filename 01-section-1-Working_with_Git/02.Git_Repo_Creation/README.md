@@ -7,6 +7,19 @@ using "git clone ==> Clone Repo from Remote Server "
 ```
 
 # git init
+
+## Scenario
+```
+OLA Project is finialized and want to Develop,
+When Developer working on a Project "OLA" they have IDE tools like "eclipse" 
+
+Develop-1 ==> He create the project structure using that IDE tools.
+
+So initialy it create the Project structure
+```
+Now other Developers as well work on the same project, so we need to keep that files in GIT remote Repo for that we use "git init"
+```
+We need to follow these steps for "git Init" Repo
 ```
 Step:1 ==> Init your Local Directory as GIT Local Repo 
 Step:2 ==> Add your Local git Repo to Remote git Repo 
@@ -14,7 +27,7 @@ Step:2 ==> Add your Local git Repo to Remote git Repo
 #### Step:1 ==> Init your Local Directory as GIT Local Repo 
 ```
 cd /home/user/OLA-India-DEV  
-git init
+git init .
 ```
 Now in "OLA-India-DEV" Directory you have .git Directory. So "OLA-India-DEV" Directory act as Git Repo now 
 
@@ -29,15 +42,16 @@ Using these Command Link established Now we can Push, Pull the Code from Local t
 git remote -v ===> this command will show your remote repo URL
 ```
 ```
-Open Flipkart project, 
+Open OLA project, 
 
-    git  remote add  flipkart  <Flipkart-Remote-Repo-URL> 
+    git  remote add  olaIndia  <OLA-Remote-Repo-URL> 
 
-Open Amazon project, 
+Open UBER project, 
 
-    git  remote add  amazon <Flipkart-Remote-Repo-URL> 
+    git  remote add  uberIndia <uber-Remote-Repo-URL> 
 ```
 # git clone
+
 Project has been Already setup in Centra Repository. 
 
 git clone ==> Command is used to clone Remote Repo into your Local Machine 
