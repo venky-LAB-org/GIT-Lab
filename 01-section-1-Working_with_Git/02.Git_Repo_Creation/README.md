@@ -13,13 +13,12 @@ using "git clone ==> Clone Repo from Remote Server "
 OLA Project is finialized and want to Develop,
 When Developer working on a Project "OLA" they have IDE tools like "eclipse" 
 
-Develop-1 ==> He create the project structure using that IDE tools.
+Develop-1 ==> He create the project structure using that IDE tools in their local Laptop.
 
 So initialy it create the Project structure
 ```
 Now other Developers as well work on the same project, so we need to keep that files in GIT remote Repo for that we use "git init"
-```
-We need to follow these steps for "git Init" Repo
+We need to follow these steps for Repo
 ```
 Step:1 ==> Init your Local Directory as GIT Local Repo 
 Step:2 ==> Add your Local git Repo to Remote git Repo 
@@ -38,9 +37,13 @@ To Link your Local repository to Your Remote Repository
 git  remote add  <Alias-Name>  <Remote-Repo-URL> 
 ```
 Using these Command Link established Now we can Push, Pull the Code from Local to Remote 
+
+This command will show your remote repo URL
 ```
-git remote -v ===> this command will show your remote repo URL
+git remote -v
 ```
+
+Example
 ```
 Open OLA project, 
 
@@ -98,8 +101,9 @@ Got to GitHub ====> Settings  =====> Developer settings ===> Personal Access Tok
 Enter 
         Note ==> Your PAT-Name HERE
         Expiration => Here you mention Expiry Time
-        select Scope ==> Here we select the Permission to assign for the Token
+        elect Scope ==> Here we select the Permission to assign for the Token
 ```
+IMP Note
 ```
 These Token is not Shown again ===> you have to save that Token in safe place
 ```
