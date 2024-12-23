@@ -46,9 +46,15 @@ git clone <Your-Remote-Repo-URL>
 ```
 There are 2 ways we can clone the Remote repos
 ```
-Http [We hit Username & Password] ====> If we clone using HTTP, we hit username and Password for Every time when you push and/pull 
+Http [We hit Username & Password] ====> If we clone using HTTP, we hit username and Password for Every time when you push and/pull
+        git clone <Your-HTTPS-Remote-Repo-URL> 
+```
+```
+SSH [We configure ssh keys in GitHub] [passwordless]  ===>  If we clone using SSH, we don’t hit username and Password for Every time when you push and/pull
 
-SSH [We configure ssh keys in GitHub] [passwordless]  ===>  If we clone using SSH, we don’t hit username and Password for Every time when you push and/pull 
+You need to add the SSH Key Before that
+
+        git clone <Your-SSH-Remote-Repo-URL>
 ```
  
 ## clone Public Repository 
