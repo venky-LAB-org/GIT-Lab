@@ -23,7 +23,7 @@ yum install wget tar -y
 ```
 Open these URL ====>   https://github.com/git/git/releases 
 
-Select your GIT version
+Select your GIT version => Right-Click => copy Link Address 
 ```
 ```
 wget  <Your Copied-URL>
